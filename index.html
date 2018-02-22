@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  body{
+    background-color: #0dad9e;
+  }
+
+  .box{
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 300ms;
+
+    height: 400px;
+    width: 400px;
+    margin: 140px;
+
+  }
+  #one{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 180px;
+    width: 300px;
+    transition: 300ms;
+  }
+
+    .box:hover>#two{
+
+      transform: rotateX(50deg)rotate(-15deg);
+      transition: 300ms;
+      top: -30px;
+      left: 10px;
+
+      height: 180px;
+      width: 300px;
+
+    }
+    .box:hover>#one{
+
+      transform: rotateX(50deg)rotate(-15deg);
+      transition: 300ms;
+
+      height: 180px;
+      width: 300px;
+      top: 0px;
+      left: 0px;
+
+    }
+
+    #two{
+
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      height: 180px;
+      width: 300px;
+
+      transition: 300ms;
+    }
+    #three{
+
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      height: 180px;
+      width: 300px;
+
+      transition: 300ms;
+    }
+    .box:hover>#three{
+
+      transform: rotateX(50deg)rotate(-15deg);
+      transition: 300ms;
+      top: -50px;
+      left: 20px;
+
+      height: 180px;
+      width: 300px;
+
+    }#four{
+
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      height: 180px;
+      width: 300px;
+
+      transition: 300ms;
+    }
+    .box:hover>#four{
+
+      transform: rotateX(50deg)rotate(-15deg);
+      transition: 300ms;
+      top: -70px;
+      left: 30px;
+
+      height: 180px;
+      width: 300px;
+
+    }
+
+
+
+  </style>
+</head>
+<body>
+
+  <div class="box" >
+    <img src="images/transparent-black.png" alt="" id="one">
+    <img src="images/solid-temp.png" alt="" id="two">
+    <img src="images/template.png" alt="" id="three">
+    <img src="images/top.png" alt="" id="four">
+
+
+  </div>
+
+
+</body>
+</html>
